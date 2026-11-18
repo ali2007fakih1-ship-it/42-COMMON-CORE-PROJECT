@@ -68,12 +68,3 @@ int ft_printf(const char *f, ...)
     va_end(str);
     return (count);
 }
-
-
-int main() {
-    
-    ft_printf("ali\n");
-    printf("ali");
-    
-    return 0;
-}
